@@ -1,0 +1,29 @@
+{
+  "name" : "Shareaholic",
+  "slug" : "shareaholic",
+  "version" : "0.0.7.0",
+  "author" : "Matt Gifford <matt@monkehworks.com>",
+  "location" : "https://github.com/coldfumonkeh/Shareaholic",
+  "directory" : "",
+  "createPackageDirectory" : "false",
+  "Homepage" : "https://github.com/coldfumonkeh/Shareaholic",
+  "Documentation" : "https://github.com/coldfumonkeh/Shareaholic",
+  "Repository" : {
+    "type" : "git", "URL" : "https://github.com/coldfumonkeh/Shareaholic"
+  },
+  "Bugs" : "https://github.com/coldfumonkeh/Shareaholic/issues",
+  "shortDescription" : "A ColdFusion Wrapper written to interact with the Shareaholic API",
+  "keywords" : [ "social", "api" ],
+  "private" : "false",
+  "engines" : [
+    { "type" : "railo", "version" : ">=4.1.x" },
+    { "type" : "adobe", "version" : ">=9.0.0" }
+  ],
+  "defaultEngine" : "railo",
+  "defaultPort" : "8085",
+  "License" : [
+    { "type" : "MIT", "URL" : "" }
+  ],
+  "Contributors" : [ {"name": "Matt Gifford", "url": "https://www.monkehworks.com"} ],
+  "ignore" : [ "installation/*", "README.md" ]
+}
